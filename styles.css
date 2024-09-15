@@ -6,28 +6,39 @@ body{
     background-color:#383837;
     flex-direction: column;
     justify-content: center;
-    background-image: url(Bluewatercolor.jpg);
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
-header {
+header{
     display: flex;
+    flex-direction: row;
+    gap:4em;
     text-align: center;
     width: 1300px;
-    height: 70px;
+    height: 30px;
     background-color: #0d0c0c;
     color:aliceblue;    ;
     justify-content: center;
-    font-size: 40px;
-    letter-spacing: 12px;
+    font-size: 20px;
+    letter-spacing: 37px;
     margin: 0px 55px 0px 55px;
-    padding: 5px 5px 5px 5px;
-    opacity: 0.5;
-    
+    padding: 5px 5px 10px 5px;
+       
 }
-.container .progress{
+
+p {
+    padding: 4px;
+    margin: 0px 20px 20px 20px;
+    width: 250px;
+    height: 25px;
+    background-color: rgb(47, 48, 49);
+
+}
+
+.container, .progress, .hearts {
     display: flex;
-    height: 300px;
+    height: 200px;
+    width: 40px;
     width:auto;
     flex-direction: row;
     justify-content: center;
@@ -37,8 +48,19 @@ header {
     background-color: #0d0c0c;
     margin: 150px 500px 150px 500px;
     padding: 3px 5px 5px 5px;
-    opacity: 0.5;
-    
-    
+        
   
+ }
+
+ 
+
+
+ footer {
+    display: flex;
+    flex:1;
+    flex-direction: row;
+    justify-content: center;
+    gap:1em;
+    color: #99c0c9;
+
  }
